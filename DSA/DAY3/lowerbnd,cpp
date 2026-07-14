@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    vector<int> arr = {1, 2, 4, 4, 5, 7};
+    int target = 4;
+
+    int index = lower_bound(arr.begin(), arr.end(), target) - arr.begin();
+
+    cout << "Lower Bound Index = " << index;
+
+    return 0;
+}
