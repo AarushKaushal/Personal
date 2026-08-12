@@ -10,3 +10,4 @@ int main(){
     cin >>n;
     cout << repeat(n-1);
 }
+// T ~ O(2^n) tree divides into two each time
